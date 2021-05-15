@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".Menu_Principal">
+
+    <Button
+        android:id="@+id/btnregistrar4"
+        android:layout_width="410dp"
+        android:layout_height="79dp"
+        android:background="@drawable/button_rw_border"
+        android:text="NIVEL DE OXIGENO"
+        android:textColor="#FDFAFA"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregistrar3" />
+
+    <Button
+        android:id="@+id/btnregistrar3"
+        android:layout_width="410dp"
+        android:layout_height="79dp"
+        android:background="@drawable/button_rw_border"
+        android:text="RITMO CARDIACO"
+        android:textColor="#FDFAFA"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnregistrar2" />
+
+    <Button
+        android:id="@+id/btnregistrar2"
+        android:layout_width="410dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/button_rw_border"
+        android:text="TEMPERATURA"
+        android:textColor="#FDFAFA"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="147dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/salud_2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:text="ESCOGER ACTIVIDAD"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
