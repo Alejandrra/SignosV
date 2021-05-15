@@ -5,37 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#03A9F4"
-    tools:context=".Temperatura">
+    tools:context=".Nivel_Oxigeno">
 
     <Button
-        android:id="@+id/btnvolver3"
+        android:id="@+id/btnvolver4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginTop="132dp"
         android:background="@drawable/button_rw_border"
         android:text="VOLVER"
         android:textColor="#FDFAFA"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/temperatura" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/editTextNumberDecimal3"
         android:layout_width="267dp"
         android:layout_height="62dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="88dp"
         android:background="@drawable/button_rw_border"
         android:backgroundTint="@color/white"
         android:ems="10"
@@ -45,18 +34,27 @@
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton2"
+        android:layout_width="66dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="124dp"
+        android:background="@color/material_on_background_disabled"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal3"
+        app:srcCompat="@drawable/play_3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
-        android:background="@color/material_on_background_disabled"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
-        app:srcCompat="@drawable/play_3" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oxigeno" />
 </androidx.constraintlayout.widget.ConstraintLayout>

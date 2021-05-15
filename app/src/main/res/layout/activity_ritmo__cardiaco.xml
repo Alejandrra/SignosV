@@ -5,37 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#03A9F4"
-    tools:context=".Temperatura">
+    tools:context=".Ritmo_Cardiaco">
 
     <Button
-        android:id="@+id/btnvolver3"
+        android:id="@+id/btnvolver2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginTop="112dp"
         android:background="@drawable/button_rw_border"
         android:text="VOLVER"
         android:textColor="#FDFAFA"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/temperatura" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/editTextNumberDecimal2"
         android:layout_width="267dp"
         android:layout_height="62dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="96dp"
         android:background="@drawable/button_rw_border"
         android:backgroundTint="@color/white"
         android:ems="10"
@@ -45,18 +35,28 @@
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
+        android:id="@+id/imageButton"
+        android:layout_width="66dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="112dp"
         android:background="@color/material_on_background_disabled"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal2"
         app:srcCompat="@drawable/play_3" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="133dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ritmo_cardiaco" />
 </androidx.constraintlayout.widget.ConstraintLayout>
