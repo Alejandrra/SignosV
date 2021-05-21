@@ -8,7 +8,7 @@
     tools:context=".Menu_Principal">
 
     <Button
-        android:id="@+id/btnregistrar4"
+        android:id="@+id/btnNivelOxigeno"
         android:layout_width="410dp"
         android:layout_height="79dp"
         android:background="@drawable/button_rw_border"
@@ -17,10 +17,10 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnregistrar3" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRitmoCardiaco" />
 
     <Button
-        android:id="@+id/btnregistrar3"
+        android:id="@+id/btnRitmoCardiaco"
         android:layout_width="410dp"
         android:layout_height="79dp"
         android:background="@drawable/button_rw_border"
@@ -29,18 +29,19 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnregistrar2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTemperatura" />
 
     <Button
-        android:id="@+id/btnregistrar2"
+        android:id="@+id/btnTemperatura"
         android:layout_width="410dp"
         android:layout_height="79dp"
-        android:layout_marginTop="244dp"
+        android:layout_marginTop="156dp"
         android:background="@drawable/button_rw_border"
         android:text="TEMPERATURA"
         android:textColor="#FDFAFA"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 

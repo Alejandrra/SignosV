@@ -8,7 +8,7 @@
     tools:context=".Nivel_Oxigeno">
 
     <Button
-        android:id="@+id/btnvolver4"
+        android:id="@+id/btnN_O"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
