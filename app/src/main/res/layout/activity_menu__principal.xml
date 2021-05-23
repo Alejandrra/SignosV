@@ -14,7 +14,7 @@
         android:background="@drawable/button_rw_border"
         android:text="NIVEL DE OXIGENO"
         android:textColor="#FDFAFA"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRitmoCardiaco" />
@@ -26,7 +26,7 @@
         android:background="@drawable/button_rw_border"
         android:text="RITMO CARDIACO"
         android:textColor="#FDFAFA"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTemperatura" />
@@ -39,7 +39,7 @@
         android:background="@drawable/button_rw_border"
         android:text="TEMPERATURA"
         android:textColor="#FDFAFA"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,10 +61,23 @@
         android:layout_height="60dp"
         android:layout_marginTop="32dp"
         android:text="ESCOGER ACTIVIDAD"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="122dp"
+        android:layout_height="34dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:text="Cerrar Sesion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

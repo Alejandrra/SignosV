@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "123479395645",
+    "firebase_url": "https://login-y-resgistro-default-rtdb.firebaseio.com",
+    "project_id": "login-y-resgistro",
+    "storage_bucket": "login-y-resgistro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123479395645:android:6828f3ffdeb7a0fb398954",
+        "android_client_info": {
+          "package_name": "com.example.signosvitales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123479395645-he4ujr6pc98k8le955lt4r986df6uus2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLThxRtGM-z1FuBAx0gE3iInHMOUpu5to"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123479395645-he4ujr6pc98k8le955lt4r986df6uus2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

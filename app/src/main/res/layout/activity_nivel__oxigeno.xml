@@ -15,7 +15,7 @@
         android:background="@drawable/button_rw_border"
         android:text="VOLVER"
         android:textColor="#FDFAFA"
-        android:textSize="30sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
