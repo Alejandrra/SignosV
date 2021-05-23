@@ -73,7 +73,7 @@ public class Registro extends AppCompatActivity
 
                 if (TextUtils.isEmpty(corrR))
                 {
-                    Toast.makeText(Registro.this, "Debes escribir un correo", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Registro.this, "Ingrese un correo", Toast.LENGTH_LONG).show();
                     CorreoRegistro.requestFocus();
                     return;
 
@@ -89,7 +89,7 @@ public class Registro extends AppCompatActivity
 
                 if (TextUtils.isEmpty(Usu))
                 {
-                    Toast.makeText(Registro.this, "Debes escribir un nombre de usuario", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Registro.this, "Ingrese un usuario", Toast.LENGTH_LONG).show();
                     usuario.requestFocus();
                     return;
 
@@ -97,7 +97,7 @@ public class Registro extends AppCompatActivity
 
                 if (TextUtils.isEmpty(contraR))
                 {
-                    Toast.makeText(Registro.this, "Debes escribir una contraseña", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Registro.this, "El campo no puede estar vacio", Toast.LENGTH_LONG).show();
                     ContraseñaRegistro.requestFocus();
                     return;
 
@@ -105,14 +105,14 @@ public class Registro extends AppCompatActivity
 
                 if (contraR.length() <= 5)
                 {
-                    Toast.makeText(Registro.this, "Debes usar un minimo de 6 caracteres en la contraseña", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Registro.this, "Debes usar un minimo de 6 caracteres", Toast.LENGTH_LONG).show();
                     ContraseñaRegistro.requestFocus();
                     return;
                 }
 
                 if (TextUtils.isEmpty(Eda))
                 {
-                    Toast.makeText(Registro.this, "Debes escribir una edad", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Registro.this, "Ingrese su edad", Toast.LENGTH_LONG).show();
                     edad.requestFocus();
                     return;
 
